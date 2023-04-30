@@ -7,9 +7,9 @@ I'm interested in 3D route of aircrafts flying over my head. Mostly to/from East
 along Western Japan. 
 This program generates speed-altitude scatter plot of aircrafts at specified longitude.
 
-We can see two groups of airliner , one with 550knot and another group with 350knot at altitude 40000.
+We can see two groups of aircraft , one with 550knot and another group with 350knot at altitude 40000.
 The difference comes from jetstream from west to east.
-Estimated jetstreams is about 100knot=180km/h.
+Estimated jetstream is about 100knot=180km/h.
 
 ## How to do
 Prepare CSV data as follows
