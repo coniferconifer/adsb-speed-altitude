@@ -60,12 +60,12 @@ y=flight3[3]
 print(y)
 print(flight3)
 plt.scatter(x,y,s=200 ,  alpha=0.10)
-Title="Flight speed vs altitude at Lon="+str(baselon)+"delta="+str(delta)
+Title="Flight speed vs altitude at Lon="+str(baselon)+" delta="+str(delta)
 plt.suptitle(Title)
 plt.title(first_date + ' '+first_time + '-' + last_date + ' '+ last_time)
 #plt.title("blue: 2022/1/8 17:29-19:29")
 plt.ylabel("Altitude(ft)")
-plt.xlabel("Speed(knot)")
+plt.xlabel("Speed(knots)")
 plt.grid(True)
 
 file_string = first_date+'-'+first_time+'.jpg'
