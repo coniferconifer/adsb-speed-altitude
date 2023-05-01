@@ -45,7 +45,7 @@ Edit this code and change csv filename.
 
 Change "baselon" to your neighbor longitude to get a slice at specified longitude.
 
-Output is a speed vs altitude plot at specified longitude in  adsb5.jpg
+Output is a speed vs altitude plot at specified longitude in  "date-time".jpg
 
 ![Fig.1 speed vs altitude](adsb5.jpg)
 
