@@ -5,11 +5,11 @@ ADSB flight data slicer for speed and altitude by python and pandas
 
 I'm interested in 3D route of aircrafts flying over my head. Mostly to/from East/West
 along Western Japan. 
-This program generates speed-altitude scatter plot of aircrafts at specified longitude.
+This program generates speed-altitude scatter plot of aircrafts at specified longitude from ADS-B date by dump1090.
 
-We can see two groups of aircraft , one with 550knot and another group with 350knot at altitude 40000ft.
+We can see two groups of aircraft , one with 550knots and another group with 350knots at altitude 40000ft.
 The difference comes from jetstream blowing from west to east over Japan.
-Estimated jetstream is about 100knot=180km/h.
+Estimated jetstream is about 100knots=180km/h.
 
 ## How to do
 Prepare CSV data as follows
@@ -38,10 +38,8 @@ MSG,3,111,11111,850E14,111111,2022/01/08,17:29:08.763,2022/01/08,17:29:08.758,,4
 shows ICAO=850E14, speed=371 , altitude=40000, lat=34.04892, lon=136.10678
 
 
-
-Edit this code and change csv filename.
-
 	 $ chmod +x adsb-speed-altitude.py
+	 $ adsb-speed-altitude.py adsb1.csv
 
 Change "baselon" to your neighbor longitude to get a slice at specified longitude.
 
