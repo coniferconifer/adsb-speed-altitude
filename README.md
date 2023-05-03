@@ -51,3 +51,6 @@ Output is a speed vs altitude plot at specified longitude in  "date-time".jpg
 LICENSE Apache 2.0
 
 copyright 2023 by coniferconifer
+
+Ref. https://ttrf.tk/posts/2017-09-18-plotting-airrace-tracklog-with-rtl-sdr/
+Ref. https://github.com/coniferconifer/ADSB-vertical-slicer
