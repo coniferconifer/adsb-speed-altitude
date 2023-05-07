@@ -5,7 +5,7 @@ ADSB flight data slicer for speed and altitude by python and pandas
 
 I'm interested in 3D route of aircrafts flying over my head. Mostly to/from East/West
 along Western Japan. 
-This program generates speed-altitude scatter plot of aircrafts at specified longitude (Fig.2) from ADS-B date by dump1090.
+This program generates speed-altitude scatter plot of aircrafts at specified longitude (Fig.2) from ADS-B data by dump1090.
 Specified longitude corresponds to the red line in the adsbscope screen shot.(Fig.1)
 
 ![Fig.1 aircraft flow ](adsbscope.jpg)
