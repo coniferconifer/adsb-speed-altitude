@@ -11,7 +11,7 @@ Specified longitude corresponds to the red line in the adsbscope screen shot.(Fi
 ![Fig.1 aircraft flow ](adsbscope.jpg)
 
 
-![Fig.1 speed vs altitude](adsb5.jpg)
+![Fig.2 speed vs altitude](adsb5.jpg)
 
 We can see two groups of aircraft , one with 550knots and another group with 350knots at altitude 40000ft.
 The difference comes from jetstream blowing from west to east over Japan.
@@ -51,6 +51,10 @@ Change "baselon" to your neighbor longitude to get a slice at specified longitud
 
 Output is a speed vs altitude plot at specified longitude in  "date-time".jpg
 
+	$ adsb-angle-altitude.py adsb1.csv
+
+produces track-angle vs altitude as a trackangle-date.jpg
+![Fig.3 track angle vs altitude](trackangle-2022-01-08-17-29-07.709.jpg)
 
 
 LICENSE Apache 2.0
