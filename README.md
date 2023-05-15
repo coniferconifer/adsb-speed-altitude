@@ -14,7 +14,7 @@ Specified longitude corresponds to the red line in the adsbscope screen shot.(Fi
 ![Fig.2 speed vs altitude](adsb5.jpg)
 
 We can see two groups of aircraft , one with 550knots and another group with 350knots at altitude 40000ft.
-The difference comes from jetstream blowing from west to east over Japan.
+The difference comes from the jetstream blowing from west to east over Japan.
 Estimated jetstream is about 100knots=180km/h.
 
 ## How to do
@@ -53,8 +53,11 @@ Output is a speed vs altitude plot at specified longitude in  "date-time".jpg
 
 	$ adsb-angle-altitude.py adsb1.csv
 
-produces track-angle vs altitude as a trackangle-date.jpg
+produces track-angle vs altitude as a trackangle-date-time.jpg
+
+
 ![Fig.3 track angle vs altitude](trackangle-2022-01-08-17-29-07.709.jpg)
+
 
 
 LICENSE Apache 2.0
@@ -66,3 +69,7 @@ Ref. https://ttrf.tk/posts/2017-09-18-plotting-airrace-tracklog-with-rtl-sdr/
 Ref. https://github.com/coniferconifer/ADSB-vertical-slicer
 
 Ref. http://www.sprut.de/electronic/pic/projekte/adsb/adsb_en.html#pc
+
+Ref. https://www.atmos.rcast.u-tokyo.ac.jp/shion/u200_clim.htm
+
+Ref. https://www.smithsonianmag.com/air-space-magazine/as-next-may-unbelievablebuttrue-180968355/
