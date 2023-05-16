@@ -61,7 +61,7 @@ produces track-angle vs altitude as a trackangle-date-time.jpg
 
 ![Fig.4 speed vs altitude](2023-05-16-17-50-13.063.jpg) Fig.4 speed vs altitude , May 16/2023
 
-Figure 1 shows a two-hour observation on the evening of January 8, 2022, and another two-hour observation on May 16, 2023, for comparison. The difference between the westbound and eastbound flight speeds has narrowed, with the maximum being about 100 knots, so the jet stream appears to have decreased to about 50 knots, or 90 km/h.
+Figure 1 shows a two-hour observation on the evening of January 8, 2022, and Figure 4 shows another two-hour observation on May 16, 2023, for comparison. The difference between the westbound and eastbound flight speeds has narrowed, with the maximum being about 100 knots, so the jet stream appears to have decreased to about 50 knots, or 90 km/h.
 
 
 LICENSE Apache 2.0
